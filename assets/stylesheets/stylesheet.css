@@ -1,0 +1,139 @@
+html, body, div, ul, li {
+	margin: 0;
+  padding: 0;
+}
+
+body {
+	background: #e5e1df;
+}
+
+#container {
+  padding-top: 70px;
+}
+
+header {
+  background-color: #49423a;
+  font-family: 'Lora', serif;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height:70px;
+}
+
+nav {
+  background-color: #49423a;
+  font-family: 'Lora', serif;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 8px 5px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  padding: 5px;
+}
+
+li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.robins {
+  background-color: #6fcbd5;
+
+}
+
+.yellow {
+  background-color: #fbb535;
+}
+
+.red {
+  background-color: #df4b35;
+}
+
+.beige {
+  background-color: #ccbeac;
+}
+
+.brown {
+  background: #49423a;
+}
+
+.mint {
+  background: #a1d082;
+}
+
+section {
+  background-color: #49423;
+  font: normal 100%;
+  padding-top: 15px;
+  padding-bottom: 0;
+  width: 25%;
+  height: 500px;
+  float: left;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+
+h2  {
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  border-bottom: 2px solid white;
+}
+
+.line-icon {
+  border-bottom: 2px solid white;
+  margin: 0 15px 0 15px;
+}
+
+.line-icon img {
+  float: right;
+  border-left: 2px solid white;
+}
+
+.line-icon h1 {
+  display: inline-block;
+  padding: 8px;
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+}
+
+.logo_image {
+  width: 50%;
+  text-align: center;
+}
+
+#logo_image {
+  margin-top: 105px;
+}
+
+.footer {
+  background-color: #49423a;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+  clear: both;
+  font-size: 12px;
+}
